@@ -28,5 +28,15 @@ describe 'fizzbuzz' do
   it 'returns 12 when passed 12' do
     expect(fizzbuzz(12)).to eq 12
   end
+
+  it 'returns 20 when passed 10' do
+    expect(times_two(10)).to eq 20
+  end
   
 end
+
+# describe 'hello everyone, this is a function that doubles' do
+#   it 'returns 20 when passed 10' do
+#     expect(times_two(10)).to eq 20
+#   end
+# end

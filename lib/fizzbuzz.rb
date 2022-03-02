@@ -9,3 +9,7 @@ def fizzbuzz(number)
     number
   end
 end
+
+def times_two(number)
+  return number * 2
+end
